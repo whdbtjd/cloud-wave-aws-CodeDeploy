@@ -29,7 +29,7 @@ jobs:
         pip install pytest
         pytest --collect-only || true
 
-  core-realese:
+  core-release:
     needs: build-and-test
     runs-on: ubuntu-latest
     steps:
